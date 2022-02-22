@@ -1,1 +1,1 @@
-output "s3_name" { value = aws_s3_bucket_object.s3 }
+output "s3_name" { value = aws_s3_bucket.s3 }
