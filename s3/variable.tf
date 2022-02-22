@@ -10,9 +10,9 @@ variable "tags" {
   default     = {}
 }
 
-variable "region" {
-  description = "region name for bucket"
-  type        = string
-  default     = "us-east-1"
-}
+#variable "region" {
+#  description = "region name for bucket"
+#  type        = string
+# default     = "us-east-1"
+#}
 
