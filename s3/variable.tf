@@ -10,9 +10,4 @@ variable "tags" {
   default     = {}
 }
 
-variable "region" {
-  description = "s3 buvket region"
-  type        = string
-  default     = "us-east-1"
-}
 
