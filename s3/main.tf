@@ -1,5 +1,5 @@
-resource "aws_s3_bucket_object" "s3" {
+resource "aws_s3_bucket" "s3" {
   bucket = var.bucket-name
   tags   = var.tags
-  key    = var.key
+  region = var.region
 }
