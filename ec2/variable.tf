@@ -33,7 +33,7 @@ variable "security_group" {
 }
 variable "subnet" {
   description = "availability zones"
-  type        = list(any)
+  type        = string
   default     = null
 }
 
