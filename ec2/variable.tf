@@ -28,12 +28,12 @@ variable "ssh_key" {
 
 variable "security_group" {
   description = "security group"
-  type        = map(string)
+  type        = list(any)
   default     = null
 }
 variable "subnet" {
   description = "availability zones"
-  type        = map(string)
+  type        = list(any)
   default     = null
 }
 
